@@ -1,0 +1,77 @@
+
+#pets{
+  
+    height: 550px;
+    width: 300px;
+    display: flex;
+    gap:100px;
+    position: relative;
+    left: 270px;
+}
+#pets img{
+    height:170px;
+}
+#pets .card{
+    border: 2px solid rgb(244, 244, 244);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow:  0px 5px 8px rgb(0, 0, 0);
+}
+.card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    line-height:10px;
+}
+h3 p{
+    
+
+ font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 228;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -1,
+    "CRSV" 0.5,
+    "ELSH" 75.9,
+    "ELXP" 51;
+
+
+    font:bolder;
+}
+@media(max-width:600px){
+#pets{
+
+        flex-direction:column;
+left:5%;
+right: 4%;
+    }
+#pets img{
+    height:150px;
+}
+}
+h1{
+
+
+ 
+
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 228;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -1,
+    "CRSV" 0.5,
+    "ELSH" 75.9,
+    "ELXP" 51;
+
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#pets .card:hover{
+      box-shadow:  0px 15px 16px rgb(0, 0, 0);
+}

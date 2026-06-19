@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page.in </title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="label">
+        <h1  >Login page..</h1>
+   <form action="/server" class="form-1">
+
+<label for="username">
+    Enter user name: 
+</label>
+
+<input
+type="text"
+id="username"
+class="form"
+name="username"
+placeholder="Enter your user name">
+
+<label for="password">
+    Enter your password:
+</label>
+
+<input
+type="password"
+id="password"
+class="form"
+placeholder="Enter your password" name="password">
+<button class="form-1">submit</button>
+<input type="button" type="submit" name="username" value="submit-form">
+</form>
+<hr>
+<form action="https://www.bing.com/">
+<input type="text" class="form" name="q" placeholder="Search">
+<button class="form-1">submit-BTN</button>
+</form>
+<hr><hr>
+
+<form action="/server">
+    <input type="checkbox" id="age" name="age" >
+    <label for="age">I am 18+</label>
+    <button>submit</button>
+<br>
+    <input type="radio" name="fruit" id="mango" value="mango"/>
+    <label for="mango">Mango</label>
+    <br>
+    <input type="radio" name="fruit" id="grapess" value="grapess"/>
+    <label for="grapess">grapess</label>
+    <br>
+    <input type="radio" name="fruit" id="banana" value="banana"/>
+    <label for="banana">banana</label>
+   <br> 
+    <input type="radio" name="fruit" id="apple" value="Apple"/>
+    <label for="apple">Apple</label>
+    <br>
+    <label for="pets">chose a pet..</label>
+    <select name="pets" id="pets">
+<option value="dog">Dog</option>
+<option value="cat">Cat</option>
+<option value="lion">Lion</option>
+<option value="cow">Cow</option>
+<option value="dog1">Dog1</option>
+    </select>
+    <label for="range">select you range</label>
+    <input type="range" min="0" max="100" name="range" id="range" step="5"/>
+    <label for="text">Plaese Enter you text...</label>
+    <textarea name="text" id="text" placeholder="this is a good website.." rows="4" cols="50" ></textarea>
+</form>
+
+
+
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>

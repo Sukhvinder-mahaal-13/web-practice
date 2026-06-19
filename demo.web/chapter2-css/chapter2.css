@@ -1,0 +1,84 @@
+
+span button{
+    background-color: black;
+    color: aliceblue;
+}
+li a{
+    color: #fff90099;
+    text-decoration: none;
+    gap: 10px ;
+ 
+}
+li a:hover {
+    color: #183c46;
+}
+h1{
+    font-style: italic;
+font-family: Verdana,  Tahoma, sans-serif;
+color:#183c46;
+
+}
+li{
+color:#183c46;
+}
+li:hover{
+    color: #fff90099;
+}
+h1::first-letter{
+    color:rgb(224, 189, 50);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 100px;
+}
+div input{
+    color:black;
+    background-color: #183c46;
+    border-radius: 9px;
+
+}
+.login {
+    background-color: rgb(224, 189, 50);
+    color:#183c46;
+    border-radius: 9px;
+    text-decoration: none;
+
+}
+.signup{
+    background-color: rgb(224, 189, 50);
+    color:#183c46;
+    border-radius:9px;
+    text-decoration: none;
+}
+.login:hover{
+    background-color:  #183c46;
+     color: rgb(151, 149, 149);
+
+}
+.signup:hover{
+    background-color: #183c46;
+    color: rgb(151, 149, 149);
+
+}
+header{
+    background-color:rgb(8 43 38 / 80%);
+    border-radius: 10px;
+
+}
+main{
+    background-color: rgb(8 43 38 / 80%);
+    border-radius: 50px;
+    text-align: center;
+    color:rgb(196, 185, 185);
+
+}
+ p{
+    padding-top: 20px;
+ }
+ main a {
+    text-decoration: none;
+    color:rgb(224, 189, 50);
+ }
+ main a:hover{
+    
+    color:rgb(69, 197, 190);
+ }
